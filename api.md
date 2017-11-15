@@ -23,6 +23,7 @@ URL | Content | Methods
 Prefix: `api/works/originals/`
 
 URL | Content | Methods
+----|---------|--------
 `<trustee_code>` | All originals of one trustee | GET, POST
 `<trustee_code>/<language_code>` | All originals of one trustee and language | GET, POST
 `<trustee_code>/<language_code>/<work_code>` | Specific original work | GET, POST
@@ -37,6 +38,7 @@ URL | Content | Methods
 Prefix: `api/works/translations/`
 
 URL | Content | Methods
+----|---------|--------
 `<language_code>` | All translations of one language | GET, POST
 `<author_slug>` | All translations of one author | GET, POST
 `<author_slug>/<language_code>` | All translations of one author and language | GET, POST
