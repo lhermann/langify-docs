@@ -20,6 +20,20 @@ Edior, social components.
 Our focus in development.
 
 
+## Translations
+
+There will be one translation for each langauge. It will be defined in which locale it should be written.
+
+Future plans: We might add one translation per locale (e.g. British and American English). We might also allow two translations, one which is very exact and one which emphasizes a beautiful language (we also have e.g. different bible translationsfor that reason).
+
+
+## Accounts
+
+**Username**: Publicly visible, therefore don't use your e-mail address.
+
+**First and last name**: Your real name. Please understand that official translations need official names. You can choose between _public_, _contributors_ and _reference_. When you select _contributors_ it is visible to registered contributors, when you select _reference_ it is used for reference, e.g. in printed books, only.
+
+
 ## Authorization and reward system
 
 [Read](authorization.md) about reputation, badges and privileges in order to produce high quality translations.
