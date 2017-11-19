@@ -6,9 +6,34 @@ Documentation of URLs and their allowed methods. For the JSON objects see API OP
 
 Under development. Please use the URLs provided in the JSON!
 
+## Private
+
+This API is for use between front- and backend.
+
 **Note:** Please let me know if you need the information of several JSON objects on one page frequently. We will combine them in order to reduce queries.
 
-## Works
+### Works
+
+Prefix: `api/`
+
+URL | Content | Methods
+----|---------|--------
+`o/` | List of original works | GET, POST
+`o/<ID>/` | Specific original work | GET, PUT, PATCH, DELETE
+`o/<ID>/s/` | Sections of a work | GET, POST
+`o/<ID>/s/<position>/` | Specific section | GET, PUT, PATCH, DELETE
+`t/` | List of translated works | GET, POST
+`t/<ID>/` | Specific translated work | GET, PUT, PATCH, DELETE
+`t/<ID>/s/` | Sections of a work | GET, POST
+`t/<ID>/s/<position>/` | Specific section | GET, PUT, PATCH, DELETE
+
+## Public
+
+A public API is planned.
+
+## Ideas
+
+### Works
 
 Prefix: `api/`
 
@@ -18,7 +43,7 @@ URL | Content | Methods
 `works/originals` | All original works | GET, POST
 `works/translations` | All translations | GET, POST
 
-### Originals
+#### Originals
 
 Prefix: `api/works/originals/`
 
@@ -33,7 +58,7 @@ URL | Content | Methods
 `<author_slug>` | All originals of one author | GET, POST
 `<language_code>` | All originals of one language | GET, POST
 
-### Translations
+#### Translations
 
 Prefix: `api/works/translations/`
 
@@ -53,4 +78,4 @@ URL | Content | Methods
 
 Note: Private works are included only if you have access rights.
 
-## Users
+### Users
