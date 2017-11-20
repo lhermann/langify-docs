@@ -34,6 +34,10 @@ Future plans: We might add one translation per locale (e.g. British and American
 **First and last name**: Your real name. Please understand that official translations need official names. You can choose between _public_, _contributors_ and _reference_. When you select _contributors_ it is visible to registered contributors, when you select _reference_ it is used for reference, e.g. in printed books, only.
 
 
+## Versioning
+
+[Editions, releases and drafts](versioning.md).
+
 ## Authorization and reward system
 
 [Read](authorization.md) about reputation, badges and privileges in order to produce high quality translations.
@@ -50,11 +54,11 @@ Tools our website is built with:
 
 Function | Name
 ---------|-----
+Front end (SPA) | [Vue.js](https://vuejs.org/)
 Backend (ORM, web framework, admin) | [Django](https://www.djangoproject.com/)
 REST API | [Django REST framework](http://www.django-rest-framework.org/)
 Database | [PostgreSQL](https://www.postgresql.org/)
-Front end (SPA) | [Vue.js](https://vuejs.org/)
-Languages | Python, JavaScript (and others like HTML, CSS)
+Languages | JavaScript, Python (and others like HTML, CSS)
 
 
 ## Examples
