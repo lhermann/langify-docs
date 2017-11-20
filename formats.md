@@ -18,19 +18,20 @@ We save the works internally using HTML.
 
 Usage | Calibre | Langify
 ------|---------|--------
-paragraph | <p> | <p>
-title, headline | <h1> – <h6> | <h1> – <h6>
-italic | <i> | <i>
-bold | <b> | <b>
-underline | <u> | <u>
-subscript | <sub> | <sub>
-supscript | <sup> | <sup>
-thematic break | | <hr>
-reference* | <a> | <a>
+paragraph | `<p>` | `<p>`
+title, headline | `<h1>` – `<h6>` | `<h1>` – `<h6>`
+italic | `<i>` | `<i>`
+bold | `<b>` | `<b>`
+underline | `<u>` | `<u>`
+subscript | `<sub>` | `<sub>`
+supscript | `<sup>` | `<sup>`
+thematic break | | `<hr>`
+reference* | `<a>` | `<a>`
 
 And maybe all signs in [here](https://github.com/kovidgoyal/calibre/blob/master/src/calibre/ebooks/html_entities.py).
 
-* = includes URLs, other works, bible, pages. Maybe we could use the [data](https://www.w3schools.com/tags/tag_data.asp) tag for pages, works and bible.
+*= includes URLs, other works, bible, pages. Maybe we could use the [data](https://www.w3schools.com/tags/tag_data.asp) tag for pages, works and bible.
 
 Other HTML tags we might support: abbr, lists, tables, blockquote, definitions, kdb, s, var, small, cite, code, summary, ...
+
 CSS we should support: text-align
