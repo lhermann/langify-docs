@@ -68,6 +68,7 @@ Add a history table. App: [Django reversion](https://django-reversion.readthedoc
 #### Cons
 
 - Heavier queries on historical objects (?).
+- Historical relations might point to the current object (depends on implementation).
 
 #### 2. Release as time stamp
 
@@ -114,6 +115,7 @@ I'll use type 4 and implement "release as snapshot" maybe in combination with "r
 
 ## Notes
 
+- New editions of source material are checked against the development version only. However, you can make a manual check where a time stamp will be used.
 - The work gets protected during amendments right before a new release should be completed. You may revise it during that time but your updates stay in the draft. However, persons who are in charge of the amendments may consider your revisions.
 
 ## Issues
