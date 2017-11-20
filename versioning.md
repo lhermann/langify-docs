@@ -32,7 +32,7 @@ Translation ├────────────┐            │           
 
 ## Concepts (database level)
 
-This section handles the representation of editions, releases and histories in the database. The objects are [slowly changing dimensions](https://en.wikipedia.org/wiki/Slowly_changing_dimension). Types in question are tpye 2 and 4.
+This section handles the representation of editions, releases and histories in the database. The objects are [slowly changing dimensions](https://en.wikipedia.org/wiki/Slowly_changing_dimension). Types in question are type 2 and 4.
 
 ### Type 2
 
@@ -52,7 +52,7 @@ Add a new row. App: [CleanerVersion](http://cleanerversion.readthedocs.io/)
 - You cannot amend releases, only the latest (development) version.
 - Unknown component to me.
 
-#### Release as time stamp
+#### 1. Release as time stamp
 
 There is one object over the whole life of a translation. The history grows as there come revisions and releases. Releases are determined by a time stamp.
 
@@ -62,13 +62,14 @@ Add a history table. App: [Django reversion](https://django-reversion.readthedoc
 
 #### Pros
 
+- Stores meta-information by default (user, time stamp, comment).
 - Queries are slenderer.
 
 #### Cons
 
 - Heavier queries on historical objects (?).
 
-#### Release as time stamp
+#### 2. Release as time stamp
 
 There is one object over the whole life of a translation. The history grows as there come revisions and releases. Releases are determined by a time stamp.
 
@@ -81,7 +82,7 @@ There is one object over the whole life of a translation. The history grows as t
 
 - You cannot amend releases, only the latest development version.
 
-#### Object per release
+#### 3. Object per release
 
 There is one seperate object for every release. As a result each release has it's own history.
 
@@ -93,7 +94,7 @@ There is one seperate object for every release. As a result each release has it'
 
 - The development version after a release has an empty history. Possible solution: copy the whole history.
 
-#### Release as snapshot (copy)
+#### 4. Release as snapshot (copy)
 
 There is one object over the whole life of a translation. The history grows as there come revisions and releases. Releasing means that you copy the content into another object which will be used to jsut store this state.
 
