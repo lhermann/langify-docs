@@ -80,13 +80,13 @@ Give **other users** privileges, roll back edits, delete poor translations, hide
 
 :chart_with_upwards_trend: recom. 5000
 
-You can **release different editions** of a translation after it has been proofread one or several times. Editions will get converted into different formats and are ready for printing. Guardians may act as moderators for **other areas and languages** if they have a command of the language. A Guardian may **block users** from the trustee's area or the whole website after repeated abuse of their website privileges. Trustees, proofreaders and other guardians can give this privilege.
+You can **release different editions** of a translation after it has been amended one or several times. Editions will get converted into different formats and are ready for printing. Guardians may act as moderators for **other areas and languages** if they have a command of the language. A Guardian may **block users** from the trustee's area or the whole website after repeated abuse of their website privileges. Trustees, amenders and other guardians can give this privilege.
 
-### 13. Proofreader
+### 13. Amender
 
 :chart_with_upwards_trend: recom. 10000
 
-You may **proofread** a translation in order to release it. Other proofreaders or trustees may provide this privilege.
+You may **amend** a translation in order to release it. Other amender or trustees may provide this privilege.
 
 ### Trustee
 
@@ -116,7 +116,7 @@ Score | Reason
 +20 | A chapter/article where your contribution was more than 50% was released
 +100 | Confirmed translator of a book in this area
 +200 | Confirmed professional translator in this area
-+500 | Confirmed proofreader of a book in this area
++500 | Confirmed proofreader/amender of a book in this area
 -1 | Down vote
 -2 | Reviewer declined improvement, translation or comment (except for Mentors)
 -1 | Roll back of an improvement
