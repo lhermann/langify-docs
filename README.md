@@ -42,6 +42,10 @@ Future plans: We might add one translation per locale (e.g. British and American
 
 [Read](authorization.md) about reputation, badges and privileges in order to produce high quality translations.
 
+## Formats
+
+[Which](formats.md) formats may be used.
+
 
 ## API
 
