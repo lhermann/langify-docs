@@ -2,7 +2,7 @@
 
 Documentation of URLs and their allowed methods. For the JSON objects see API OPTIONS directly.
 
-`HEAD` and `OPTIONS` are not listed here.
+There are options to filter and order JSON objects not mentioned here. See `OPTIONS` for details. The methods `HEAD` and `OPTIONS` are not listed here.
 
 Under development. Please use the URLs provided in the JSON!
 
@@ -20,12 +20,24 @@ URL | Content | Methods
 ----|---------|--------
 `o/` | List of original works | GET, POST
 `o/<ID>/` | Specific original work | GET, PUT, PATCH, DELETE
+`o/<ID>/e/` | List of editions | GET
+`o/<ID>/e/<no>` | Specific edition | GET
+`o/<ID>/e/<no>/s/` | Sections of an edition | GET
+`o/<ID>/h/` | List of edits | GET
+`o/<ID>/h/(<date>|initial)/` | Specific version | GET
 `o/<ID>/s/` | Sections of a work | GET, POST
 `o/<ID>/s/<position>/` | Specific section | GET, PUT, PATCH, DELETE
 `t/` | List of translated works | GET, POST
 `t/<ID>/` | Specific translated work | GET, PUT, PATCH, DELETE
-`t/<ID>/s/` | Sections of a work | GET, POST
-`t/<ID>/s/<position>/` | Specific section | GET, PUT, PATCH, DELETE
+`t/<ID>/r/` | List of releases | GET
+`t/<ID>/r/<no>` | Specific release | GET
+`t/<ID>/r/<no>/s/` | Sections of a release | GET
+`t/<ID>/s/` | Sections of a work, including drafts | GET, POST
+`t/<ID>/s/<position>/` | Specific section, including draft | GET, PUT, PATCH, DELETE
+`t/<ID>/s/<position>/h/` | List of events | GET
+`t/<ID>/s/<position>/d/` | List of draft snapshots | GET
+`t/<ID>/s/<position>/(h|d)/(<datetime>|initial)/` | Specific version | GET
+`t/<ID>/s/<position>/(h|d)/(<datetime>|initial)-(<datetime>|current)/` | Edits in text | GET
 
 ## Public
 

@@ -58,7 +58,9 @@ There is one object over the whole life of a translation. The history grows as t
 
 ### Type 4
 
-Add a history table. App: [Django reversion](https://django-reversion.readthedocs.io/)
+Add a history table. App: [Django-simple-history](http://django-simple-history.readthedocs.io/en/latest/index.html)
+
+(Rejected [Django reversion](https://django-reversion.readthedocs.io/) because you get an error trying to restore a version and you added a database field in between, see [this discussion](https://groups.google.com/forum/#!topic/django-reversion/kitOQtlXfgs).)
 
 #### Pros
 
