@@ -14,30 +14,32 @@ This API is for use between front- and backend.
 
 ### Works
 
-Prefix: `api/`
+Prefix: `/api/`
 
 URL | Content | Methods
 ----|---------|--------
-`o/` | List of original works | GET, POST
-`o/<ID>/` | Specific original work | GET, PUT, PATCH, DELETE
-`o/<ID>/e/` | List of editions | GET
-`o/<ID>/e/<no>` | Specific edition | GET
-`o/<ID>/e/<no>/s/` | Sections of an edition | GET
-`o/<ID>/h/` | List of edits | GET
-`o/<ID>/h/(<date>|initial)/` | Specific version | GET
-`o/<ID>/s/` | Sections of a work | GET, POST
-`o/<ID>/s/<position>/` | Specific section | GET, PUT, PATCH, DELETE
-`t/` | List of translated works | GET, POST
-`t/<ID>/` | Specific translated work | GET, PUT, PATCH, DELETE
-`t/<ID>/r/` | List of releases | GET
-`t/<ID>/r/<no>` | Specific release | GET
-`t/<ID>/r/<no>/s/` | Sections of a release | GET
-`t/<ID>/s/` | Sections of a work, including drafts | GET, POST
-`t/<ID>/s/<position>/` | Specific section, including draft | GET, PUT, PATCH, DELETE
-`t/<ID>/s/<position>/h/` | List of events | GET
-`t/<ID>/s/<position>/d/` | List of draft snapshots | GET
-`t/<ID>/s/<position>/(h|d)/(<datetime>|initial)/` | Specific version | GET
-`t/<ID>/s/<position>/(h|d)/(<datetime>|initial)-(<datetime>|current)/` | Edits in text | GET
+`translations/` | List of translated works | GET, POST
+`translations/<id>/` | Specific translated work | GET, PUT, PATCH, DELETE
+`translations/<id>/releases/` | List of releases | ~GET~
+`translations/<id>/releases/<no>/` | Specific release | ~GET~
+`translations/<id>/releases/<no>/sections/` | Sections of a release | ~GET~
+`translations/<id>/sections/` | Sections of a work, including originals and drafts | GET
+`translations/<id>/sections/?last_modified__gt[e]=<datetime>` | *datetime* as ISO 8601, i.e. `%Y-%m-%dT%H:%M:%S.%fZ`, e.g. `2017-12-20T12:00:00.0000Z` | GET
+`translations/<id>/sections/<position>/` | Specific section, including original and draft | GET, ~PUT~, ~PATCH~, DELETE
+`translations/<id>/sections/<position>/history/` | List of events | GET
+`translations/<id>/sections/<position>/drafts/` | List of draft snapshots | GET, POST
+
+### Other
+
+Prefix: `/api/`
+
+URL | Content
+----|--------
+`authors/` |
+`licences/` |
+`references/` |
+`users/` |
+`trustees/` |
 
 ## Public
 
