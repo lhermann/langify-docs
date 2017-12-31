@@ -24,7 +24,7 @@ URL | Content | Methods
 `translations/<id>/releases/<no>/` | Specific release | ~GET~
 `translations/<id>/releases/<no>/segments/` | Segments of a release | ~GET~
 `translations/<id>/segments/` | Segments of a work, including originals and drafts | GET
-`translations/<id>/segments/?last_modified__gt[e]=<datetime>` | *datetime* as [ISO 8601](https://www.w3.org/TR/NOTE-datetime), e.g. `2017-12-20T12:00:00.0000Z` | GET
+`translations/<id>/segments/?last_modified__gt[e]=<datetime>` | *datetime* as [ISO 8601](https://www.w3.org/TR/NOTE-datetime), e.g. `2017-12-20T12:00:00.321Z`, `+` = `%2B`! | GET
 `translations/<id>/segments/<position>/` | Specific section, including original and draft | GET, ~PUT~, ~PATCH~, DELETE
 `translations/<id>/segments/<position>/history/` | List of events | GET
 `translations/<id>/segments/<position>/drafts/` | List of draft snapshots | GET, POST
