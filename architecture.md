@@ -13,6 +13,7 @@ This means you visit our website and the browser loads basically three files (in
 1. a small file containing *HTML* (*Hypertext Markup Language*, the standard markup language for creating web pages),
 2. a file containing *JavaScript* (a programming language) and
 3. a file containing *CSS* (*Cascading Style Sheets*, used for describing the presentation of a document).
+
 These files are always the same, no difference which URL (*Uniform Resource Locator*, colloquially termed a web address) you enter. Now your browser runs the JavaScript code. The code looks up the URL you entered, requests needed data from the server (see section *API*) and builds the proper HTML for that page. As a result your browser is able to render the page (together with the styling information of the CSS file). If you click somewhere the HTML will be updated by the JavaScript code. The same is happening when you enter text, etc.
 
 #### Pros and cons
@@ -123,7 +124,7 @@ There are many tools we use but I skip this part for now.
 
 ### Frontend
 
-This is the presentation layer, the part of the website the users see. You could also define it as the scripts that run at the client-side. For our website you could say it is equal to *Vue.js* (and at some places *Django*).
+This is the presentation layer, the part of the website the users see. You could also define it as the scripts that run at the client-side. You could say it is equal to *Vue.js* concerning our website (and at some places *Django*).
 
 As a result the frontend is mainly written in *JavaScript*.
 
