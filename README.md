@@ -71,7 +71,7 @@ Languages | JavaScript, Python (and others like HTML, CSS)
 
 [What](examples.md) inspired us.
 
-## Question & Answers
+## Questions & Answers
 
 1. Who is translating?
     - Everybody with good english skills is encouraged to contribute.
@@ -84,13 +84,13 @@ Languages | JavaScript, Python (and others like HTML, CSS)
 5. What ensures uniform language?
     - The platform will provide an easy-to-access glossary with explanations provided by the publisher together with a list how the word was translated in other places. See also question 4.
 6. What ensures hight quality?
-    - Translators are encouraged to continually improve on their and other people's translations. Each paragraph has to be peer-reviewed and approved. See [quality_assurance](quality_assurance.md) and also question 4.
+    - Translators are encouraged to continually improve on their and other people's translations. Each paragraph has to be peer-reviewed and approved. See [quality assurance](quality_assurance.md) and also question 4.
 7. What ensures high fidelity to the original?
     - A glossary, maintained by the publisher, explains words and lists prior translations of the same. The publisher has the option to review the finished translation by someone trusted (e.g. an Adventist university).
 8. Who decides whether a translation is finished?
     - Once all paragraphs are approved (see question 4) a majority consensus of all active translators can release the translation as a whole. Still then improvments on the text are encouraged and can under consensus be released as Edition 2, 3, etc. The publisher can reserve the right to make the final decision, however the publisher has to produce valid points if a translation is not released in order to prevent frustration on the side of the translators.
 9. What happens when a translation is finished?
-    - The translation will be taged with a version number (e.g. Edition 1). Digitally accessible formats will automatically be generated (e.g. PDF, MOBI, EBOOK, ...). The text will be available for online reading and is exposed through a public API. See [Editions, releases and drafts](versioning.md), [API](api.md) and [formats](formats.md).
+    - The translation will be taged with a version number (e.g. Edition 1). Digitally accessible formats will automatically be generated (e.g. PDF, MOBI, EBOOK, ...). The text will be available for online reading and is exposed through a public API. See [versioning](versioning.md), [API](api.md) and [formats](formats.md).
 10. Under which licenses will translations be?
     - If possible a Creative Commons license allowing for free non-commercial use. Translations that were financed by the publisher grand some pay to the translators wherefore the publisher can freely choose the lisence. See [licenses](licenses.md).
 11. Who is allowed to physically publish a translation?
