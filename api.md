@@ -6,6 +6,10 @@ There are options to filter and order JSON objects not mentioned here. See `OPTI
 
 Under development. Please use the URLs provided in the JSON!
 
+The interactive API can be accessed at http://127.0.0.1:8000/api/docs/ and
+might replace this whole document in the future. 
+(The development server should be running.)
+
 ## Private
 
 This API is for use between front- and backend.
@@ -19,6 +23,7 @@ Prefix: `/api/`
 URL | Content | Methods
 ----|---------|--------
 `translations/` | List of translated works | GET, POST
+`translations/switched-segments/` | Note about switching segments | POST
 `translations/<id>/` | Specific translated work | GET, PUT, PATCH, DELETE
 `translations/<id>/releases/` | List of releases | ~GET~
 `translations/<id>/releases/<no>/` | Specific release | ~GET~
@@ -28,6 +33,26 @@ URL | Content | Methods
 `translations/<id>/segments/<position>/` | Specific section, including original and draft | GET, ~PUT~, ~PATCH~, DELETE
 `translations/<id>/segments/<position>/history/` | List of events | GET
 `translations/<id>/segments/<position>/drafts/` | List of draft snapshots | GET, POST
+
+#### JSON objects
+
+Generally see interactive or browsable API.
+
+##### Switching segments
+```js
+{
+  "priorSegmentId": <id>[,
+  "currentSegmentId": <id>]
+}
+```
+
+### Users
+
+Prefix: `/api/`
+
+URL | Content | Methods
+----|---------|--------
+`users/<id>/` | Specific user | GET, PUT, PATCH, DELETE
 
 ### Other
 
@@ -92,4 +117,3 @@ URL | Content | Methods
 
 Note: Private works are included only if you have access rights.
 
-### Users
