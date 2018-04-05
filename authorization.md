@@ -76,7 +76,7 @@ Each user has a score we call :small_blue_diamond: reputation.Here is a list whe
 | +200 | Confirmed professional translator in this area       |
 | +500 | Confirmed proofreader/amender of a book in this area |
 
-## :sports_medal: Badges
+## :trophy: Trophies
 
 | Name         | Reason                                        |
 | ------------ | --------------------------------------------- |
