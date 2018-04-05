@@ -1,17 +1,26 @@
 # Authorization
 
-This article describes the permission groups and how you become a member of them.
+What a user is and is not allowd to do depents upon the following categories:
+
+*   User Roll
+*   Reputation
+
+Reputation determines the privileges a user has. Reputation is langauge specific.
+
+> DEPRICATED:
+> This article describes the permission groups and how you become a member of them.
 
 ## User Rols
 
 ### Translator
 
-Every normal user is a translator. Translators can earn :small_blue_diamond:, and with reputation they **earn privileges**.
+Every normal user is a translator. Translators can earn :small_blue_diamond: reputation, and with reputation they **earn privileges**.
 
 ### Trustee
 
 A trustee is an organisation or person that administers the works of an author or publishing house. Thus a trustee has **all privileges for his assigned works**.
 
+> DEPRICATED:
 > Your **privileges** from 7 (Translator) upwards are trustee specific. That means you may have more privileges in an area than another. (They are also langauge specific.)
 
 ### Admin
@@ -20,7 +29,7 @@ An admin is part of the core staff and can act with **all privileges** where nee
 
 ## Language
 
-It is recommended that you contribute as a **native speaker** only or you speak the language very well. Your **privileges are langauge specific**. I.e. you start in each language from 5 :small_blue_diamond: on.
+It is recommended that you contribute as a **native speaker** only or you speak the language very well. Your **reputation is langauge specific**. You start in each language from 1 :small_blue_diamond:. If you have reached 1000 :small_blue_diamond: in one language you will start in other languages with 50 :small_blue_diamond:.
 
 ## Privileges
 
@@ -30,13 +39,13 @@ It is recommended that you contribute as a **native speaker** only or you speak 
 | ------------------------- | ----------------------------- |
 | can read                  | 1                             |
 | can translate new segment | 3                             |
-| can edit translations     | 10                            |
-| can comment               | 20                            |
-| can flag comments         | 20                            |
-| can upvote translations   | 50                            |
-| can flag translations     | 50                            |
-| can downvote translations | 100                           |
-| can rollback translations | 100                           |
+| can edit translations     | 20                            |
+| can comment               | 50                            |
+| can flag comments         | 50                            |
+| can upvote translations   | 100                           |
+| can flag translations     | 100                           |
+| can downvote translations | 150                           |
+| can rollback translations | 150                           |
 | can hide comments         | 500                           |
 | can flag users            | 500                           |
 
@@ -49,7 +58,7 @@ It is recommended that you contribute as a **native speaker** only or you speak 
 
 ## :small_blue_diamond: Reputation
 
-Each user has a score we call :small_blue_diamond: reputation.Here is a list where to gain or loose it.
+Each user has a score we call :small_blue_diamond: reputation. Here is a list where to gain or loose it:
 
 ### Gain and loose :small_blue_diamond:
 
