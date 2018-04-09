@@ -18,7 +18,7 @@ Every normal user is a translator. Translators can earn :small_blue_diamond: rep
 
 ### Trustee
 
-A trustee is an organisation or person that administers the works of an author or publishing house. Thus a trustee has **all privileges for his assigned works**.
+A trustee is an organisation or person that administers the works of an author or publishing house. Thus a trustee has **all privileges for his assigned works**. (The trustee has to assign these privileges to himself first.)
 
 > DEPRICATED:
 > Your **privileges** from 7 (Translator) upwards are trustee specific. That means you may have more privileges in an area than another. (They are also langauge specific.)
@@ -29,7 +29,7 @@ An admin is part of the core staff and can act with **all privileges** where nee
 
 ## Language
 
-It is recommended that you contribute as a **native speaker** only or you speak the language very well. Your **reputation is langauge specific**. You start in each language from 1 :small_blue_diamond:. If you have reached 1000 :small_blue_diamond: in one language you will start in other languages with 50 :small_blue_diamond:.
+It is recommended that you contribute as a **native speaker** only or you speak the language very well. Your **reputation is langauge specific**. You start in each language from 5 :small_blue_diamond:. If you have reached 1000 :small_blue_diamond: in one language you will start in other languages with 50 :small_blue_diamond:.
 
 ## Privileges
 
@@ -39,8 +39,8 @@ It is recommended that you contribute as a **native speaker** only or you speak 
 | ------------------------- | ----------------------------- |
 | can read                  | 1                             |
 | can translate new segment | 3                             |
-| can edit translations     | 20                            |
-| can comment               | 50                            |
+| can edit translations     | 3                             |
+| can comment               | 3                             |
 | can flag comments         | 50                            |
 | can upvote translations   | 100                           |
 | can flag translations     | 100                           |
@@ -65,8 +65,8 @@ Each user has a score we call :small_blue_diamond: reputation. Here is a list wh
 |      | Reason                                  |
 | ---- | --------------------------------------- |
 | 1    | New accounts                            |
-| +5   | E-mail confirmed (once)                 |
-| +5   | Cellphone confirmed (once)              |
+| +2   | E-mail confirmed (once)                 |
+| +2   | Cellphone confirmed (once)              |
 | +10  | Upvote on translation / edit            |
 | +50  | Work you contributed was released       |
 | +20  | Physical Adress & Name confirmed (once) |
