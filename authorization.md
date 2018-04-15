@@ -33,28 +33,40 @@ It is recommended that you contribute as a **native speaker** only or you speak 
 
 ## Privileges
 
+### Score philosophy
+
+* Critics of Stackoverflow point out that it is discouraging for beginners that they can hardly do anything. Therefore you should be albe to contribute as a newcomer, i.e. translate and comment. See the description of Contributor, too.
+* Everybody should be albe to report abuse
+
 ### List
 
-| Privilege                 | :small_blue_diamond: required |
-| ------------------------- | ----------------------------- |
-| can read                  | 1                             |
-| can translate new segment | 3                             |
-| can edit translations     | 3                             |
-| can comment               | 3                             |
-| can flag comments         | 50                            |
-| can upvote translations   | 100                           |
-| can flag translations     | 100                           |
-| can downvote translations | 150                           |
-| can rollback translations | 150                           |
-| can hide comments         | 500                           |
-| can flag users            | 500                           |
+| Privilege                   | :small_blue_diamond: required |
+| --------------------------- | ----------------------------- |
+| can read                    | 1                             |
+| can translate new segment   | 3                             |
+| can edit translations       | 3                             |
+| can comment                 | 3                             |
+| can flag comments           | 3                             |
+| can flag translations       | 3                             |
+| can flag users              | 3                             |
+| can approve translations    | 100                           |
+| can disapprove translations | 150                           |
+| can delete translations     | 150                           |
+| can restore translations    | 150                           |
+| can hide comments           | 500                           |
+
 
 ### Vocabulary
 
-*   upvote: approve, or agree, that a translation is good
-*   downvote: disapprove, or disagree, with a translation (can remove an upvote of someone else)
-*   rollback: restore a previous edit/version of a segment from history
+Our aim is to use commonly understood terms to be intuitive.
+
+*   approve: agree that a translation is good
+*   disapprove: disagree with a translation (can remove an upvote of someone else)
+*   restore: restore a previous edit/version of a segment from history and add a new record to the history
 *   edit translations: doesn't really edit someone elses translation, but really creates a new translation on top of the old, visible in history
+*   delete translation: remove the content and add an appropriate record to the history
+*   flag: report maintainer/admin about abuse, users don't know until maintainer intervenes
+*   hide: make the content of an inappropriate comment invisible (users instead see a message like "comment was hidden by maintainer", this is somethimes better for usability reasons, so the original commenter doesn't think his comment was lost, owners may always delete their comments which makes them disappear completely)
 
 ## :small_blue_diamond: Reputation
 
@@ -67,12 +79,12 @@ Each user has a score we call :small_blue_diamond: reputation. Here is a list wh
 | 1    | New accounts                            |
 | +2   | E-mail confirmed (once)                 |
 | +2   | Cellphone confirmed (once)              |
-| +10  | Upvote on translation / edit            |
+| +10  | Approve on translation / edit           |
 | +50  | Work you contributed was released       |
 | +20  | Physical Adress & Name confirmed (once) |
-| -1   | Down vote                               |
-| -1   | Ones edit being rolled back             |
-| -5   | Being flagged (comment or translation)  |
+| -1   | Disapprove/down vote                    |
+| -1   | Another version is restored             |
+| -50  | Abuse confirmed by maintainer           |
 | -100 | Get blocked                             |
 
 ### More suggestions:
