@@ -7,8 +7,7 @@ What a user is and is not allowd to do depents upon the following categories:
 
 Reputation determines the privileges a user has. Reputation is langauge specific.
 
-> DEPRICATED:
-> This article describes the permission groups and how you become a member of them.
+Alternative: A community-based system where users (with higher privileges) assing privileges to other users. We rejected this approach mainly because of a more intense maintenance for the users (responsible entities). An advantage of this system is that you prevent contributors to work just in order to get a better score and thereby more privileges (affecting the quality). Another disadvantage might be that users who assign privileges might act in their own interests.
 
 ## User Rols
 
@@ -18,10 +17,18 @@ Every normal user is a translator. Translators can earn :small_blue_diamond: rep
 
 ### Trustee
 
-A trustee is an organisation or person that administers the works of an author or publishing house. Thus a trustee has **all privileges for his assigned works**. (The trustee has to assign these privileges to himself first.)
+They can (and have to) review translations before they get released. If they change something other reviewers have to approve the changes before they are released.
+
+They are responsible for the releases. That means they decide when to release a translation which will then be published on the Ellen White website automatically.
+
+Responsible entities make a translator a trustee for a specific language for their works.
+
+### Responsible entity
+
+A responsible entity (short *responsible*) is an organisation or person that administers the works of an author or publishing house.
 
 > DEPRICATED:
-> Your **privileges** from 7 (Translator) upwards are trustee specific. That means you may have more privileges in an area than another. (They are also langauge specific.)
+> Thus a responsible entity has **all privileges for his assigned works**. (The responsible entity has to assign these privileges to himself first.)
 
 ### Admin
 
