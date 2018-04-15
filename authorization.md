@@ -68,7 +68,7 @@ It is recommended that you contribute as a **native speaker** only or you speak 
 Our aim is to use commonly understood terms to be intuitive.
 
 *   approve: agree that a translation is good
-*   disapprove: disagree with a translation (can remove an upvote of someone else)
+*   disapprove: disagree with a translation (can remove an approval of someone else)
 *   restore: restore a previous edit/version of a segment from history and add a new record to the history
 *   edit translations: doesn't really edit someone elses translation, but really creates a new translation on top of the old, visible in history
 *   delete translation: remove the content and add an appropriate record to the history
