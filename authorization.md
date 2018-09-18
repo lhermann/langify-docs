@@ -7,8 +7,7 @@ What a user is and is not allowd to do depents upon the following categories:
 
 Reputation determines the privileges a user has. Reputation is langauge specific.
 
-> DEPRICATED:
-> This article describes the permission groups and how you become a member of them.
+Alternative: A community-based system where users (with higher privileges) assing privileges to other users. We rejected this approach mainly because of a more intense maintenance for the users (responsible entities). An advantage of this system is that you prevent contributors to work just in order to get a better score and thereby more privileges (affecting the quality). Another disadvantage might be that users who assign privileges might act in their own interests.
 
 ## User Rols
 
@@ -18,10 +17,18 @@ Every normal user is a translator. Translators can earn :small_blue_diamond: rep
 
 ### Trustee
 
-A trustee is an organisation or person that administers the works of an author or publishing house. Thus a trustee has **all privileges for his assigned works**.
+They can (and have to) review translations before they get released. If they change something other reviewers have to approve the changes before they are released.
+
+They are responsible for the releases. That means they decide when to release a translation which will then be published on the Ellen White website automatically.
+
+Responsible entities make a translator a trustee for a specific language for their works.
+
+### Responsible entity
+
+A responsible entity (short *responsible*) is an organisation or person that administers the works of an author or publishing house.
 
 > DEPRICATED:
-> Your **privileges** from 7 (Translator) upwards are trustee specific. That means you may have more privileges in an area than another. (They are also langauge specific.)
+> Thus a responsible entity has **all privileges for his assigned works**. (The responsible entity has to assign these privileges to himself first.)
 
 ### Admin
 
@@ -29,32 +36,44 @@ An admin is part of the core staff and can act with **all privileges** where nee
 
 ## Language
 
-It is recommended that you contribute as a **native speaker** only or you speak the language very well. Your **reputation is langauge specific**. You start in each language from 1 :small_blue_diamond:. If you have reached 1000 :small_blue_diamond: in one language you will start in other languages with 50 :small_blue_diamond:.
+It is recommended that you contribute as a **native speaker** only or you speak the language very well. Your **reputation is langauge specific**. You start in each language from 5 :small_blue_diamond:. If you have reached 1000 :small_blue_diamond: in one language you will start in other languages with 50 :small_blue_diamond:.
 
 ## Privileges
 
+### Score philosophy
+
+* Critics of Stackoverflow point out that it is discouraging for beginners that they can hardly do anything. Therefore you should be albe to contribute as a newcomer, i.e. translate and comment. See the description of Contributor, too.
+* Everybody should be albe to report abuse
+
 ### List
 
-| Privilege                 | :small_blue_diamond: required |
-| ------------------------- | ----------------------------- |
-| can read                  | 1                             |
-| can translate new segment | 3                             |
-| can edit translations     | 20                            |
-| can comment               | 50                            |
-| can flag comments         | 50                            |
-| can upvote translations   | 100                           |
-| can flag translations     | 100                           |
-| can downvote translations | 150                           |
-| can rollback translations | 150                           |
-| can hide comments         | 500                           |
-| can flag users            | 500                           |
+| Privilege                   | :small_blue_diamond: required |
+| --------------------------- | ----------------------------- |
+| can read                    | 1                             |
+| can translate new segment   | 3                             |
+| can edit translations       | 3                             |
+| can delete translations     | 3                             |
+| can comment                 | 3                             |
+| can flag comments           | 3                             |
+| can flag translations       | 3                             |
+| can flag users              | 3                             |
+| can approve translations    | 100                           |
+| can disapprove translations | 150                           |
+| can restore translations    | 150                           |
+| can hide comments           | 500                           |
+
 
 ### Vocabulary
 
-*   upvote: approve, or agree, that a translation is good
-*   downvote: disapprove, or disagree, with a translation (can remove an upvote of someone else)
-*   rollback: restore a previous edit/version of a segment from history
+Our aim is to use commonly understood terms to be intuitive.
+
+*   approve: agree that a translation is good
+*   disapprove: disagree with a translation (can remove an approval of someone else)
+*   restore: restore a previous edit/version of a segment from history and add a new record to the history
 *   edit translations: doesn't really edit someone elses translation, but really creates a new translation on top of the old, visible in history
+*   delete translation: remove the content and add an appropriate record to the history
+*   flag: report maintainer/admin about abuse, users don't know until maintainer intervenes
+*   hide: make the content of an inappropriate comment invisible (users instead see a message like "comment was hidden by maintainer", this is somethimes better for usability reasons, so the original commenter doesn't think his comment was lost, owners may always delete their comments which makes them disappear completely)
 
 ## :small_blue_diamond: Reputation
 
@@ -65,14 +84,14 @@ Each user has a score we call :small_blue_diamond: reputation. Here is a list wh
 |      | Reason                                  |
 | ---- | --------------------------------------- |
 | 1    | New accounts                            |
-| +5   | E-mail confirmed (once)                 |
-| +5   | Cellphone confirmed (once)              |
-| +10  | Upvote on translation / edit            |
+| +2   | E-mail confirmed (once)                 |
+| +2   | Cellphone confirmed (once)              |
+| +10  | Approve on translation / edit           |
 | +50  | Work you contributed was released       |
 | +20  | Physical Adress & Name confirmed (once) |
-| -1   | Down vote                               |
-| -1   | Ones edit being rolled back             |
-| -5   | Being flagged (comment or translation)  |
+| -1   | Disapprove/down vote                    |
+| -1   | Another version is restored             |
+| -50  | Abuse confirmed by maintainer           |
 | -100 | Get blocked                             |
 
 ### More suggestions:
