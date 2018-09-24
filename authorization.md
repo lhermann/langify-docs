@@ -49,14 +49,14 @@ It is recommended that you contribute as a **native speaker** only or you speak 
 
 | Privilege                   | :small_blue_diamond: required |
 | --------------------------- | ----------------------------- |
-| can read                    | 1                             |
-| can translate new segment   | 3                             |
-| can edit translations       | 3                             |
-| can delete translations     | 3                             |
-| can comment                 | 3                             |
-| can flag comments           | 3                             |
-| can flag translations       | 3                             |
-| can flag users              | 3                             |
+| can read                    | 0                             |
+| can translate new segment   | 1                             |
+| can edit translations       | 1                             |
+| can delete translations     | 1                             |
+| can comment                 | 1                             |
+| can flag comments           | 1                             |
+| can flag translations       | 1                             |
+| can flag users              | 1                             |
 | can approve translations    | 100                           |
 | can disapprove translations | 150                           |
 | can restore translations    | 150                           |
@@ -83,7 +83,7 @@ Each user has a score we call :small_blue_diamond: reputation. Here is a list wh
 
 |      | Reason                                  |
 | ---- | --------------------------------------- |
-| 1    | New accounts                            |
+| 3    | New accounts                            |
 | +2   | E-mail confirmed (once)                 |
 | +2   | Cellphone confirmed (once)              |
 | +10  | Approve on translation / edit           |
